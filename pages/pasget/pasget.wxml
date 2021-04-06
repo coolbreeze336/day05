@@ -1,0 +1,12 @@
+<!--pages/pasget/pasget.wxml-->
+<view class="content">
+  <view class="top">
+    <view class="wz">缴费</view>
+  </view>
+  <view class="center">
+    <view class="qh">未缴明细</view>
+    <view class="qh">缴费记录</view>
+    <view class="qh">缴费标准</view>
+    <view class="qh">申请收据</view>
+  </view>
+</view>

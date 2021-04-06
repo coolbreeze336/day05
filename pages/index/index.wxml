@@ -1,0 +1,66 @@
+<!--index.wxml-->
+<view class="content">
+  <view class="top">
+    <view class="left">
+      <image class="img0" src="/img/dk.png"></image>打卡
+    </view>
+    <view class="size">积云欢迎你</view>
+    <view class="right"></view>
+  </view>
+  <view class="pay">
+    <view class="gb">
+      <image class="img2" src="/img/gb.png"></image>
+      <view class="xx">
+        恭喜<view class="xm">付政法</view>同学高薪就业，<view class="xz">转正薪资18000元</view>
+      </view>
+      <view class="you"></view>
+    </view>
+  </view>
+  <view>
+    <image class="img3"
+      src="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fimg22.pxto.com.cn%2Feditor%2F1911%2F20%2F5dd4a4114fb05.jpg&refer=http%3A%2F%2Fimg22.pxto.com.cn&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1620294151&t=361f0732efdc27aeab92a45273f2ce27">
+    </image>
+  </view>
+  <view class="jr">
+    恭喜河南省申慧聪同学五月十五日加入积云教育
+  </view>
+  <view class="qk">
+    <view class="qkv">
+      <image class="img4" src="/img/jif.png"></image>
+      <view class="xdv">综合积分</view>
+    </view>
+    <view class="qkv">
+      <image class="img4" src="/img/pl.png"></image>
+      <view class="xdv">老师评语</view>
+    </view>
+    <view class="qkv">
+      <image class="img4" src="/img/lw.png"></image>
+      <view class="xdv">获得奖励</view>
+    </view>
+    <view class="qkv">
+      <image class="img4" src="/img/cj.png"></image>
+      <view class="xdv">考试成绩</view>
+    </view>
+    <view class="qkv">
+      <image class="img4" src="/img/xx.png"></image>
+      <view class="xdv">学籍信息</view>
+    </view>
+  </view>
+  <view class="kb"></view>
+  <view class="kqdv">
+    <view class="kq">
+      <view class="wo">我的考勤</view>
+      <b class="gd">更多</b>
+    </view>
+  </view>
+  <view class="lx">
+    <view>考勤类型</view>
+    <view>时间</view>
+    <view>状态</view>
+  </view>
+  <view class="zt">
+    <view>上午第一节课</view>
+    <view>7:30~8:30</view>
+    <view>未打卡</view>
+  </view>
+</view>

@@ -1,0 +1,38 @@
+<!--pages/passage/passage.wxml-->
+<view class="content">
+  <view class="top">
+    <view class="wz">
+      我的
+    </view>
+  </view>
+  <view class="imag">
+    <image class="img" src="/img/tx.jpg"></image>
+  </view>
+  <view class="center">
+    <view class="xx">
+      <view class="sx">姓名:</view>
+      <view class="sxx">付政法</view>
+    </view>
+    <view class="xx">
+      <view class="sx">基本信息:</view>
+      <view class="sxz">查看/修改</view>
+    </view>
+    <view class="xx">
+      <view class="sx">银行信息:</view>
+      <view class="sxz">查看/修改</view>
+    </view>
+    <view class="xx">
+      <view class="sx">就业协议:</view>
+      <view class="sxz">查看</view>
+    </view>
+    <view class="xx">
+      <view class="sx">我的承诺:</view>
+      <view class="sxz">查看</view>
+    </view>
+    <view class="xx">
+      <view class="sx">假期申请:</view>
+      <view class="sxz">查看</view>
+    </view>
+    <button class="btn">安全退出</button>
+  </view>
+</view>

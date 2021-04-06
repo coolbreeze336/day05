@@ -1,0 +1,44 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/pasget/pasget",
+    "pages/passage/passage"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Weixin",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "/img/sy.png",
+        "selectedIconPath": "/img/sy1.png"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "考试",
+        "iconPath": "/img/ks.png",
+        "selectedIconPath": "/img/ks1.png"
+      },
+      {
+        "pagePath": "pages/pasget/pasget",
+        "text": "缴费",
+        "iconPath": "/img/jf.png",
+        "selectedIconPath": "/img/jf1.png"
+      },
+      {
+        "pagePath": "pages/passage/passage",
+        "text": "我的",
+        "iconPath": "/img/wd.png",
+        "selectedIconPath": "/img/wd1.png"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

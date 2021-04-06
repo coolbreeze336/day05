@@ -1,0 +1,36 @@
+<!--logs.wxml-->
+<view class="content">
+  <view class="top">
+    <view class="top-left">
+      入学考试
+    </view>
+  </view>
+  <view class="xx">
+    <view class="tt">
+      <image class="img" src="/img/tx.jpg"></image>
+      <view class="size">付政法</view>
+    </view>
+    <view class="jsr">
+      <view>
+        <image class="img2" src="/img/dh.png"></image>12345678912
+      </view>
+      <view>
+        <image class="img2" src="/img/xx.png"></image>410633166677888317
+      </view>
+      <view>
+        <image class="img2" src="/img/wd.png"></image>奥特曼
+      </view>
+    </view>
+  </view>
+  <view class="center">
+    <view class="tde">
+      <view class="yi">1</view>
+      <view class="wz">第一次考试结果</view>
+    </view>
+    <view class="sj">考试时间2020-06-15 10:07:13</view>
+    <view class="sj">有效日期:</view>
+    <view class="sj">考试学制: 6月</view>
+    <view class="sj">考试次数: 1</view>
+    <view class="sj">考试结果:</view>
+  </view>
+</view>
