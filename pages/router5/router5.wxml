@@ -1,0 +1,50 @@
+<view class="content">
+  <view class="top">
+    <view class="top-left" catchtap="clicks">〈 学籍信息</view>
+  </view>
+  <view class="center">
+    <view class="dvcc">
+      <view class="tde">
+        <view class="yi">16</view>
+        <view class="wz">第一次考试结果</view>
+      </view>
+      <view class="right">﹀</view>
+    </view>
+    <view class="sj">班级: <view class="wzs"> 全栈-2005E</view></view>
+    <view class="sj">班主任/手机号: <view class="wzs"> 肖旭 15524286373</view></view>
+    <view class="sj">课程一/讲师: <view class="wzs"> null 郝金力</view></view>
+    <view class="sj">课程二/讲师: <view class="wzs"> 实训一</view></view>
+    <view class="sj">上课类型: <view class="wzs"> 正常升班</view></view>
+    <view class="sj">学制月: <view class="wzs"> 高中-全栈实训（昌平）-P</view></view>
+  </view>
+  <view class="center">
+    <view class="dvcc">
+      <view class="tde">
+        <view class="yi">15</view>
+        <view class="wz">第一次考试结果</view>
+      </view>
+      <view class="right">﹀</view>
+    </view>
+    <view class="sj">班级: <view class="wzs"> 全栈-2005E</view></view>
+    <view class="sj">班主任/手机号: <view class="wzs"> 肖旭 15524286373</view></view>
+    <view class="sj">课程一/讲师: <view class="wzs"> null 郝金力</view></view>
+    <view class="sj">课程二/讲师: <view class="wzs"> 实训一</view></view>
+    <view class="sj">上课类型: <view class="wzs"> 正常升班</view></view>
+    <view class="sj">学制月: <view class="wzs"> 高中-全栈实训（昌平）-P</view></view>
+  </view>
+  <view class="center">
+    <view class="dvcc">
+      <view class="tde">
+        <view class="yi">14</view>
+        <view class="wz">第一次考试结果</view>
+      </view>
+      <view class="right">﹀</view>
+    </view>
+    <view class="sj">班级: <view class="wzs"> 全栈-2005E</view></view>
+    <view class="sj">班主任/手机号: <view class="wzs"> 肖旭 15524286373</view></view>
+    <view class="sj">课程一/讲师: <view class="wzs"> null 郝金力</view></view>
+    <view class="sj">课程二/讲师: <view class="wzs"> 实训一</view></view>
+    <view class="sj">上课类型: <view class="wzs"> 正常升班</view></view>
+    <view class="sj">学制月: <view class="wzs"> 高中-全栈实训（昌平）-P</view></view>
+  </view>
+</view>

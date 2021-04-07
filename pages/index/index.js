@@ -6,10 +6,38 @@ Page({
   data: {
     motto: '',
     userInfo: {},
+    route:[
+      {
+        "url":"/pages/routerjf/routerjf",
+        "text":"综合积分",
+        "img":"/img/jif.png",
+      },
+      {
+        "url":"/pages/router2/router2",
+        "text":"老师评语",
+        "img":"/img/pl.png"
+      },
+      {
+        "url":"/pages/router3/router3",
+        "text":"获得奖励",
+        "img":"/img/lw.png"
+      },
+      {
+        "url":"/pages/router4/router4",
+        "text":"考试成绩",
+        "img":"/img/cj.png"
+      },
+      {
+        "url":"/pages/router5/router5",
+        "text":"学籍信息",
+        "img":"/img/xx.png"
+      }
+    ],
+    img:['https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fimg22.pxto.com.cn%2Feditor%2F1911%2F20%2F5dd4a4114fb05.jpg&refer=http%3A%2F%2Fimg22.pxto.com.cn&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1620294151&t=361f0732efdc27aeab92a45273f2ce27','https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fimg22.pxto.com.cn%2Feditor%2F1911%2F20%2F5dd4a4114fb05.jpg&refer=http%3A%2F%2Fimg22.pxto.com.cn&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1620294151&t=361f0732efdc27aeab92a45273f2ce27','https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fimg22.pxto.com.cn%2Feditor%2F1911%2F20%2F5dd4a4114fb05.jpg&refer=http%3A%2F%2Fimg22.pxto.com.cn&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1620294151&t=361f0732efdc27aeab92a45273f2ce27'],
     list:[
       {
         "num":"1",
-        "name":"时时彩",
+        "name":"上午第一节课",
         "img":"/img.gwc.png"
       },
       {

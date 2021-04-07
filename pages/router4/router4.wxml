@@ -1,0 +1,8 @@
+<view class="content">
+  <view class="top">
+    <view class="top-left" catchtap="clicks">〈 考试成绩</view>
+  </view>
+  <view class="bottom">
+    暂无考试成绩~
+  </view>
+  </view>

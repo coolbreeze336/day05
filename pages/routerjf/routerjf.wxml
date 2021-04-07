@@ -1,0 +1,86 @@
+<view class="content">
+  <!--pages/routerjf/routerjf.wxml-->
+  <view class="top">
+    <view class="top-left" catchtap="clicks">〈 综合积分</view>
+    <view class="dvs">
+      <view class="dvs1">
+        <view class="dvs3">144</view>
+        <view class="dvs5">当前积分</view>
+      </view>
+      <view class="dvs2">
+        <view class="dvs4">优秀</view>
+        <view class="dvs6">积分状态</view>
+      </view>
+      <view class="dvs1">
+        <view class="dvs3">100</view>
+        <view class="dvs5">总积分</view>
+      </view>
+    </view>
+  </view>
+  <view class="center">
+    <view class="tde">
+      <view class="yi">1</view>
+      <view class="wz">2021-03-14 00:00:00</view>
+    </view>
+    <view class="xx">
+      <view class="sx">上次积分</view>
+      <view class="sxx">146</view>
+    </view>
+    <view class="xx">
+      <view class="sx">本次积分:</view>
+      <view class="sxz">144</view>
+    </view>
+    <view class="xx">
+      <view class="sx">积分变动:</view>
+      <view class="sxz">-2</view>
+    </view>
+    <view class="xx">
+      <view class="sx">变动原因:</view>
+      <view class="sxz">一个烟头</view>
+    </view>
+  </view>
+  <view class="center">
+    <view class="tde">
+      <view class="yi">2</view>
+      <view class="wz">2021-03-14 00:00:00</view>
+    </view>
+    <view class="xx">
+      <view class="sx">上次积分</view>
+      <view class="sxx">148</view>
+    </view>
+    <view class="xx">
+      <view class="sx">本次积分:</view>
+      <view class="sxz">146</view>
+    </view>
+    <view class="xx">
+      <view class="sx">积分变动:</view>
+      <view class="sxz">-2</view>
+    </view>
+    <view class="xx">
+      <view class="sx">变动原因:</view>
+      <view class="sxz">校服不合格</view>
+    </view>
+  </view>
+  <view class="center">
+    <view class="tde">
+      <view class="yi">3</view>
+      <view class="wz">2021-03-14 00:00:00</view>
+    </view>
+    <view class="xx">
+      <view class="sx">上次积分</view>
+      <view class="sxx">150</view>
+    </view>
+    <view class="xx">
+      <view class="sx">本次积分:</view>
+      <view class="sxz">148</view>
+    </view>
+    <view class="xx">
+      <view class="sx">积分变动:</view>
+      <view class="sxz">-2</view>
+    </view>
+    <view class="xx">
+      <view class="sx">变动原因:</view>
+      <view class="sxz">一个烟头</view>
+    </view>
+  </view>
+</view>

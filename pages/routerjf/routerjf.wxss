@@ -1,61 +1,67 @@
 .content{
   width: 100%;
   height: 1070rpx;
+  box-sizing: border-box;
+  padding-top: 300rpx;
 }
 .top{
   width: 100%;
-  height: 110rpx;
-  background-color: rgb(183, 200, 255);
-  box-sizing: border-box;
-  padding-left: 45rpx;
-  padding-top: 50rpx;
+  height: 300rpx;
+  background-color: rgb(140, 200, 255);
+  border-radius: 0% 0% 20% 20%;
+  position: fixed;
+  top: 0rpx;
 }
-.wzcc{
-  width: 90rpx;
-  height: 50rpx;
+.top-left{
+  width: 700rpx;
+  height: 80rpx;
+  padding-top: 30rpx;
+  display: flex;
+  align-items: center;
   font-weight: 700;
-  font-size: 40rpx;
-  color: rgb(255,255,255);
-}
-.center{
-  width: 100%;
-  height: 90rpx;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  box-sizing: border-box;
-}
-.qh{
-  width: 25%;
-  height: 100%;
-  font-size: 30rpx;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: rgb(79, 82, 83);
-  box-sizing: border-box;
-}
-.ddv{
-  width: 100%;
-  height: 870rpx;
-  background-color: rgb(228, 255, 252);
-}
-.but{
-  width: 100%;
-  height: 100rpx;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  position: absolute;
-  bottom: 10rpx;
-}
-.btn{
-  width: 46%;
-  height: 100rpx;
-  background-color: rgb(177, 239, 255);
   color: rgb(255, 255, 255);
 }
-.bottom{
+.dvs{
+  width: 100%;
+  height: 110rpx;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 80rpx;
+}
+.dvs3{
+  width: 95rpx;
+  height: 50rpx;
+  color: white;
+  font-weight: 700;
+  font-size: 40rpx;
+  text-align: center;
+}
+.dvs4{
+  width: 120rpx;
+  height: 65rpx;
+  color: white;
+  font-weight: 700;
+  font-size: 45rpx;
+  text-align: center;
+}
+.dvs5{
+  width: 95rpx;
+  height: 30rpx;
+  color: white;
+  font-weight: 700;
+  font-size: 20rpx;
+  text-align: center;
+}
+.dvs6{
+  width: 120rpx;
+  height: 40rpx;
+  color: white;
+  font-weight: 700;
+  font-size: 22rpx;
+  text-align: center;
+}
+.center{
   width: 750rpx;
   height: 430rpx;
   border-radius: 20rpx;
@@ -105,5 +111,7 @@
   padding: 10rpx 5rpx;
   border-radius: 5rpx;
 }
+
+
 
 

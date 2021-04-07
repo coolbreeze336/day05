@@ -1,0 +1,6 @@
+<!--pages/routergd/routergd.wxml-->
+<view class="content">
+ <view class="top">
+   <text>更多</text>
+ </view>
+</view>

@@ -166,6 +166,10 @@
   color: rgb(150, 150, 150);
   margin-top: 10rpx;
 }
+swiper{
+  width: 100%;
+  height: 420rpx;
+}
 
 
 

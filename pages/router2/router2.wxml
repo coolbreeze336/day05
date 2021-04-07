@@ -1,0 +1,10 @@
+<!--pages/router2/router2.wxml-->
+<view class="content">
+  <!--pages/routerjf/routerjf.wxml-->
+  <view class="top">
+    <view class="top-left" catchtap="clicks">〈 老师评语</view>
+  </view>
+  <view class="bottom">
+    暂无老师评语~
+  </view>
+  </view>

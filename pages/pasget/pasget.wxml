@@ -1,12 +1,34 @@
 <!--pages/pasget/pasget.wxml-->
 <view class="content">
   <view class="top">
-    <view class="wz">缴费</view>
+    <view class="wzcc">缴费</view>
   </view>
   <view class="center">
-    <view class="qh">未缴明细</view>
-    <view class="qh">缴费记录</view>
-    <view class="qh">缴费标准</view>
-    <view class="qh">申请收据</view>
+    <view class="qh" bindtap="tad" wx:for="{{meat}}" data-index="{{index}}" wx:key="index"
+      style="border-bottom: {{num == index ? '3px  solid blue':'none'}}">{{item}}</view>
+  </view>
+  <view class="ddv" wx:for="{{name}}" wx:key="index" style="display: {{num == index ? 'flex':'none'}}">
+    <view class="bottom">
+      <view class="tde">
+        <view class="yi">1</view>
+        <view class="wz">{{item.text}}</view>
+      </view>
+      <view class="xx">
+        <view class="sx">{{item.nam}}</view>
+        <view class="sxx">{{item.num}}</view>
+      </view>
+      <view class="xx">
+        <view class="sx">{{item.nam2}}</view>
+        <view class="sxz">{{item.num2}}</view>
+      </view>
+      <view class="xx">
+        <view class="sx">{{item.nam3}}</view>
+        <view class="sxx">{{item.num3}}</view>
+      </view>
+    </view>
+  </view>
+  <view class="but">
+    <button class="btn">欠费缴费</button>
+    <button class="btn">其他缴费</button>
   </view>
 </view>

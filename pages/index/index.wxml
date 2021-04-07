@@ -17,40 +17,27 @@
     </view>
   </view>
   <view>
-    <image class="img3"
-      src="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fimg22.pxto.com.cn%2Feditor%2F1911%2F20%2F5dd4a4114fb05.jpg&refer=http%3A%2F%2Fimg22.pxto.com.cn&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1620294151&t=361f0732efdc27aeab92a45273f2ce27">
+    <swiper autoplay="{{true}}" interval="2000" circular="{{true}}">
+      <swiper-item wx:for="{{img}}">
+        <image class="img3" src="{{item}}">
     </image>
+      </swiper-item>
+    </swiper>
   </view>
   <view class="jr">
     恭喜河南省申慧聪同学五月十五日加入积云教育
   </view>
   <view class="qk">
-    <view class="qkv">
-      <image class="img4" src="/img/jif.png"></image>
-      <view class="xdv">综合积分</view>
-    </view>
-    <view class="qkv">
-      <image class="img4" src="/img/pl.png"></image>
-      <view class="xdv">老师评语</view>
-    </view>
-    <view class="qkv">
-      <image class="img4" src="/img/lw.png"></image>
-      <view class="xdv">获得奖励</view>
-    </view>
-    <view class="qkv">
-      <image class="img4" src="/img/cj.png"></image>
-      <view class="xdv">考试成绩</view>
-    </view>
-    <view class="qkv">
-      <image class="img4" src="/img/xx.png"></image>
-      <view class="xdv">学籍信息</view>
-    </view>
+    <navigator wx:for="{{route}}" class="qkv" url="{{item.url}}" open-type="navigateTo">
+      <image class="img4" src="{{item.img}}"></image>
+      <view class="xdv">{{item.text}}</view>
+    </navigator>
   </view>
   <view class="kb"></view>
   <view class="kqdv">
     <view class="kq">
       <view class="wo">我的考勤</view>
-      <b class="gd">更多</b>
+      <navigator class="gd" url="/pages/routergd/routergd">更多</navigator>
     </view>
   </view>
   <view class="lx">
